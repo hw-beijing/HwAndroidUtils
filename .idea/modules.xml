@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/HwAndroidTools/HwAndroidTools.iml" filepath="$PROJECT_DIR$/HwAndroidTools/HwAndroidTools.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HwAndroidUtils.iml" filepath="$PROJECT_DIR$/HwAndroidUtils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/HwAndroidWidget/HwAndroidWidget.iml" filepath="$PROJECT_DIR$/HwAndroidWidget/HwAndroidWidget.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+    </modules>
+  </component>
+</project>
