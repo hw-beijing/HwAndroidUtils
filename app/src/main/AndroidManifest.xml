@@ -16,9 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".HwArcButtonActivity"></activity>
-
+        <activity android:name=".HwArcButtonActivity" />
+        <activity android:name=".HwSplitJointActivity"></activity>
     </application>
 
 </manifest>

@@ -30,7 +30,7 @@
             android:layout_alignParentRight="true"
             android:layout_marginBottom="18.6dp"
             android:layout_marginRight="18.6dp"
-            android:background="@mipmap/hw_arc_button_group_add_bg"
+            android:background="@mipmap/hw_widget_arc_button_group_add_bg"
             android:gravity="center"
             android:orientation="vertical">
 
@@ -40,7 +40,7 @@
                 android:layout_height="79dp"
                 android:background="@android:color/transparent"
                 android:scaleType="fitXY"
-                android:src="@mipmap/hw_arc_button_group_add" />
+                android:src="@mipmap/hw_widget_arc_button_group_add" />
 
         </LinearLayout>
 
@@ -55,7 +55,7 @@
             android:layout_marginRight="37dp"
             android:background="@android:color/transparent"
             android:scaleType="fitXY"
-            android:src="@mipmap/hw_arc_button_group_close"
+            android:src="@mipmap/hw_widget_arc_button_group_close"
             android:visibility="gone" />
 
 

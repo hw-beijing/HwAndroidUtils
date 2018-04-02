@@ -80,7 +80,7 @@ public class HwArcButtonGroup extends RelativeLayout implements View.OnClickList
     }
 
     private void init(Context context) {
-        LayoutInflater.from(context).inflate(R.layout.hw_view_arc_button_group, this);
+        LayoutInflater.from(context).inflate(R.layout.hw_widget_view_arc_button_group, this);
         initView(this);
         addViews();
     }
@@ -167,7 +167,7 @@ public class HwArcButtonGroup extends RelativeLayout implements View.OnClickList
 
     private void addImageButton(int position, HwArcDataTypeBean mpAddDataTypeBean) {
         if (rlAddButtomGroup != null) {
-            View v = LayoutInflater.from(getContext()).inflate(R.layout.hw_view_arc_button_item, null);
+            View v = LayoutInflater.from(getContext()).inflate(R.layout.hw_widget_view_arc_button_item, null);
             ImageView imageView = (ImageView) v.findViewById(R.id.iv_arc_button_item);
             TextView textView = (TextView) v.findViewById(R.id.tv_arc_button_item);
             imageView.setImageResource(mpAddDataTypeBean.getResId());

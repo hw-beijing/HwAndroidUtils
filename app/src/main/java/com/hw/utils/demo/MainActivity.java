@@ -44,6 +44,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         mLayoutParams.setMargins(20, 20, 20, 20);
 
         addView("弧形按钮菜单");
+        addView("截图拼接工具");
 
         return mLinearLayout;
     }
@@ -61,6 +62,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
     public void onClick(View v) {
         if (v == buttons.get(0)) {
             startActivity(new Intent(this, HwArcButtonActivity.class));
+        }else if (v == buttons.get(1)) {
+            startActivity(new Intent(this, HwSplitJointActivity.class));
         }
 
 
